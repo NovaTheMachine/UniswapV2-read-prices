@@ -10,7 +10,7 @@ const {
 const { erc20ABI, factoryABI, routerABI, pairABI } = require("./abiList");
 
 const provider = new ethers.providers.JsonRpcProvider(
-  "https://bsc-dataseed4.binance.org/"
+  "https://mainnet.infura.io/v3/ef99378ef61c441098c57e96c3074bd1"
 );
 
 const contractFactory = new ethers.Contract(
